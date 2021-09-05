@@ -1,0 +1,182 @@
+
+body {
+width: 900px;
+margin: 0 auto;
+background: #f0f0f0;
+color: #212121;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 13px;
+}
+
+a:link, a:visited {
+color: #212121;
+text-decoration: none;
+}
+a:hover {
+color: #444444;
+}
+.nav a:link, .post a:visited {
+color: #212121;
+text-decoration: none;
+}
+.nav a:hover {
+color: #444444;
+}
+
+ul.header-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+
+ul.header-nav li{
+    display: inline;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 11px;
+}
+
+ul.members-list{
+    list-style-type: none;
+    margin-top: 35px;
+    padding: 0;
+}
+
+ul.members-list li{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.post a:link, .post a:visited {
+    color: #78c9a1;
+    text-decoration: none;
+}
+
+.post a:hover {
+    color: #444444;
+}
+
+.date a:link, .date a:visited {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+.date a:hover {
+    color: #ffffff;
+}
+
+
+
+
+.title {
+margin: 30px 0 15px 0;
+font-size: 32px;
+text-align: center;
+text-transform: none;
+font-weight: bold;
+font-family: Helvetica;
+}
+
+.nav {
+text-transform: uppercase;
+font-size: 11px;
+text-align: center;
+font-weight: bold;
+margin-bottom: 30px;
+margin-right: 0px;
+}
+
+/* Our pages are class="post" */
+.post {
+text-align: left;
+line-height: 23px;
+padding: 50px 0;
+}
+.posttitle, .postquote, .postlink, .postanswer {
+font-size: 16px;
+font-weight: bold;
+}
+blockquote {
+padding-left: 10px;
+margin-left: 15px;
+border-left: 1px solid #cccccc;
+}
+
+.date {
+margin: 10px 0 15px 0;
+font-size: 11px;
+color: #555555;
+}
+ol.notes {
+margin: 10px 0 0 0;
+padding: 0px;
+}
+ol.notes li {
+list-style-type: none;
+line-height: 20px;
+}
+.notes .avatar{
+margin: 0 5px 0 0;
+position: relative;
+top: 4px;
+}
+
+/*create o centre narrow pages*/
+.central{
+width:560px;
+margin: auto;
+}
+
+/*created for the contact page*/
+.tab { 
+margin-left: 40px; 
+}
+
+/*not sure what this applies to*/
+.page {
+margin-bottom: 50px;
+font-size: 8px;
+text-align: center;
+}
+
+#front-image{
+    display: block;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-image{
+width: 45%;
+float: right; 
+margin: 0 0 20px 20px;
+}
+
+.event{
+    clear: both;
+    margin-bottom: 60px;
+}
+
+.event-image{
+width: 200px;
+float: left;
+}
+
+.event-text{
+    margin-left: 220px;
+}
+
+.event-datetime{
+    font-size: 15px;
+}
+
+.event-programme{
+list-style-type: none;
+}
